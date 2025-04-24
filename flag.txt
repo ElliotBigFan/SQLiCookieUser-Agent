@@ -1,0 +1,1 @@
+FLAG{pwned_by_SQLi_in_header_requests}
