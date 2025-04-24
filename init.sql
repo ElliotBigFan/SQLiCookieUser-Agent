@@ -32,4 +32,3 @@ INSERT INTO themes (name, description) VALUES
 
 INSERT INTO users (username, password, cookie) VALUES ('admin_user', 'supersecure', 'admin');
 INSERT INTO users (username, password, cookie) VALUES ('guest_user', 'password123', 'guest');
-INSERT INTO flags (value) VALUES ('FLAG{pwned_by_user_agent}');
