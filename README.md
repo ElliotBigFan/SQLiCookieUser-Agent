@@ -86,8 +86,8 @@ Lab này mô phỏng cách việc tin tưởng vào các trường do người d
 ### Cách chạy Lab
 1. Sao chép repository:
    ```bash
-   git clone https://github.com/YourUsername/SQLInjection-Lab.git
-   cd SQLInjection-Lab
+   git clone https://github.com/ElliotBigFan/SQLiCookieUser-Agent.git
+   cd SQLiCookieUser-Agent
    ```
 2. Đảm bảo bạn đã cài đặt Docker và Docker Compose trên máy của mình.
 3. Chạy lệnh sau để khởi động các container:
