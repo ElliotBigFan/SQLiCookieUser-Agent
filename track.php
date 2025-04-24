@@ -6,7 +6,7 @@ $cookie = $_SERVER['HTTP_COOKIE'] ?? '';
 
 $conn = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
 
-// LỖ HỔNG SQLi ở đây
+
 $sql = "INSERT INTO logs (useragent, cookie) VALUES ('$ua', '$cookie')";
 $conn->query($sql);
 

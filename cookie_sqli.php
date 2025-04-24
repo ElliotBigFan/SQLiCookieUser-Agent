@@ -3,15 +3,14 @@ include 'config.php';
 
 $conn = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
 
-// Đảm bảo cookie 'sessionID' mặc định là 'guest'
+// Ensure cookie is set and has a default value
 if (!isset($_COOKIE['sessionID'])) {
     setcookie("sessionID", "guest", time() + 3600, "/");
-    $sessionid = "guest"; // Sử dụng giá trị mặc định ngay lập tức
+    $sessionid = "guest"; // Default value
 } else {
     $sessionid = $_COOKIE['sessionID'];
 }
 
-// LỖ HỔNG SQLi
 $sql = "SELECT username FROM users WHERE cookie = '$sessionid'";
 $res = $conn->query($sql);
 

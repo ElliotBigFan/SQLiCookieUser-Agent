@@ -1,5 +1,5 @@
 <?php
-// Thông tin kết nối đến MySQL (container "db")
+// The Information connects to the MySQL(container "db")
 $dbhost = "db";
 $dbuser = "root";
 $dbpass = "root";

@@ -3,10 +3,9 @@ include 'config.php';
 
 $conn = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
 
-// Đảm bảo User-Agent mặc định là 'default'
+// Ensure Default User-Agent is 'default' if not set
 $ua = $_SERVER['HTTP_USER_AGENT'] ?? 'default';
 
-// LỖ HỔNG SQLi tại đây
 $sql = "SELECT * FROM themes WHERE name = '$ua'";
 $res = $conn->query($sql);
 
