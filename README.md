@@ -12,8 +12,8 @@ This lab demonstrates how trusting user-controlled fields like **Cookie** and **
 ### How to Run the Lab
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YourUsername/SQLInjection-Lab.git
-   cd SQLInjection-Lab
+   git clone https://github.com/ElliotBigFan/SQLiCookieUser-Agent.git
+   cd SQLiCookieUser-Agent
    ```
 2. Ensure that Docker and Docker Compose are installed on your machine.
 3. Run the following command to start the containers:
