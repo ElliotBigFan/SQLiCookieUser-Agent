@@ -37,7 +37,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <button>Login</button>
     </form>
 
-    <!-- Thêm các đường link -->
     <a href="cookie_sqli.php" target="_blank">Go to Cookie SQLi</a><br>
     <a href="theme.php" target="_blank">Go to Theme SQLi</a>
 </body>
